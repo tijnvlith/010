@@ -1,0 +1,19 @@
+
+
+
+.blogpost 
+
+{ width: 300px; border: 1px solid black; }
+
+.container {
+    display: flex;
+    flex-direction: row-reverse;
+    align-self: auto;
+    flex-wrap: wrap;
+    margin-left: 600px;
+  }
+
+  .container :last-child {
+    flex-grow: inherit; align-self: auto;
+  }
+ 
